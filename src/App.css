@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+
+body {
+  font-family: "Squada One" !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .navbar-brand {
+  font-size: 8rem;
+  width: 16.25rem;
+  color: rgb(19, 19, 58);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  font-size: 4rem;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.dropdown-item {
+  font-size: 3rem;
+}
+
+.navbar-nav li a.active,
+.navbar-nav li a:focus a:hover {
+  border-top: 0.1875rem solid rgb(55, 124, 55);
+}
+
+.header-wrapper {
+  position: relative;
+  background: url(forest.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info h1 {
+  margin: auto !important;
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  color: #fff !important;
+  
+}
+
+h1 {
+  color: #fff !important;
+}
+
+p {
+  color: #fff !important;
+  font-size:2rem;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 65%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn .btn-primary {
+  color: rgb(55, 124, 55)
 }

@@ -1,12 +1,17 @@
 import React from "react";
-// import Router from "react-router-dom";
-
+import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Project from "./components/Project"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Yooooooo. Is it working?</h1>
-    </div>
+    <>
+    <Navbar/>
+    <Header/>
+    <Project/>
+    </>
   );
 }
 
