@@ -60,3 +60,7 @@ p {
 .btn .btn-primary {
   color: rgb(55, 124, 55)
 }
+
+.card-group {
+  align-items: center
+}
