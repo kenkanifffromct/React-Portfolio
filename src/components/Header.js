@@ -18,13 +18,6 @@ function Header() {
               things I'm used to building are more physical (like wood
               furniture) than digital (like a website). This will simply utilize
               my passion for building things in a new format.</p>
-                <p>This course is a great way to start but I plan to go beyond it's
-              scope and gain skills in programming cross-platform apps. My
-              ultimate goal is to be a freelancer, where I can offer my services
-              to help anyone I can, whether it's a local start-up in need of a
-              website or someone who has a great idea for an app but no avenue
-              in which to build it. I've been skydiving so when they say the sky
-              is the limit, I take it literally.</p>
                 </div>
         </div>
     )
